@@ -39,7 +39,7 @@ function App() {
           setDogDetails(sortedResponse)
         })
         
-        // Catch errors if any
+        // Catch errors 
         .catch((err) => {  
           setLoading(false); 
           setErrorMsg(err?.message)
